@@ -2,7 +2,7 @@ public class Hello {
     public static void main(String[] args) {
         System.out.println("Vs Code is Awesome....");
 
-        greeting("Git");
+        greeting("Mj");
     }
 
     public static void greeting(String name) {
