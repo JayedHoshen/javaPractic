@@ -3,6 +3,7 @@ public class Hello {
         System.out.println("Vs Code is Awesome....");
 
         greeting("Jayed Hoshen");
+        greeting("Mj");
     }
 
     public static void greeting(String name) {
