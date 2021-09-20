@@ -5,7 +5,7 @@ class Student {
     public void GetData() {
         Roll = 96002;
         Name = "Jayed";
-        Mark = 85.25f;
+        Mark = 85.25F;
     }
 
     void Display() {
