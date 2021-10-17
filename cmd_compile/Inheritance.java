@@ -1,5 +1,3 @@
-import java.io.*;
-
 class StudentInfo{
     int Roll;
     String Name = new String();
