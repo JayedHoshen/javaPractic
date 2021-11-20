@@ -1,5 +1,3 @@
-import java.io.*;
-
 class A extends Thread{
     public void run() {
         for(int i = 1; i <= 5; i += 2) {

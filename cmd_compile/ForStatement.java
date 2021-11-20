@@ -5,7 +5,9 @@ public class ForStatement {
         String s;
         try{
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
             System.out.print("Enter Value of N (>=1): ");
+
             s = br.readLine();
             n = Integer.parseInt(s);
 
@@ -16,7 +18,9 @@ public class ForStatement {
                 sum = sum + i;
                 System.out.println(i + "\t" + sum);
             }
-            //System.out.println("Sum is " + sum);
+            System.out.println("---------------------");
+            System.out.println("Sum is " + sum);
+            System.out.println("---------------------");
         }
         catch(Exception E){}
     }

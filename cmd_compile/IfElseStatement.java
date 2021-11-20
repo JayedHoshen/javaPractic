@@ -8,6 +8,7 @@ public class IfElseStatement {
             BufferedReader br = new BufferedReader(in);
 
             System.out.print("Enter the year to be tested: ");
+            
             s = br.readLine();
             year = Integer.parseInt(s);
 
