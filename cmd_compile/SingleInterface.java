@@ -1,6 +1,6 @@
 interface StudentInformation {
     static final int Roll = 205;
-    static final String Name = "Mitali";
+    static final String Name = "Jayed";
     void display();
 }
 class StudentResult implements StudentInformation {
@@ -13,14 +13,14 @@ class StudentResult implements StudentInformation {
         Mark = 85.55f;
     }
     public void showMark() {
+        getMark();
         System.out.println("Mark is: " + Mark);
     }
 }
-public class InterfaceExample{
+public class SingleInterface{
     public static void main(String args[]) {
         StudentResult R = new StudentResult();
         R.display();
-        R.getMark();
         R.showMark();
     }
 }
